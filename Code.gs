@@ -16,7 +16,7 @@ const CONFIG = {
   reminderMinutesBefore: 1440,       // Popup reminder (in minutes); 1440 = 1 day before
 
   // Cleanup
-  cleanupEvents: true,              // ⚠️⚠️⚠️ Deletes all matching birthday events between ±100 years
+  cleanupEvents: false,              // ⚠️⚠️⚠️ Deletes all matching birthday events between ±50 years, takes a long time
 
   // Trigger options
   useTrigger: true,                  // Automatically run on a schedule
